@@ -1,5 +1,3 @@
-
-fun main(args:Array<String>){
-   println("Hello from kotlin")
-
+fun main() {
+    println("Hello from kotlin")
 }
