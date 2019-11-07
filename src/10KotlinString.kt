@@ -1,14 +1,20 @@
 fun main() {
-    /*  val str1 = "Hello, World!"
-      val str2 = "Hello, World!"
-      println(str1==str2) //true*/
+    val str1 = "Hello, World!"
+    val str2 = "Hello, World!"
+
+    //Comparing the values in kotlin string
+    println(str1 == str2) //true
+
+    //Comparing the reference
+    println(str1 === str2) //true
+
 //String buffer
-    val str1 = buildString { "string value" }
-    val str2 = buildString { "string value" }
+    val strBuffer1 = buildString { "string value" }
+    val strBuffer2 = buildString { "string value" }
 
-    println(str1 == str2)
+    //Comparing the values in kotlin string
+    println(strBuffer1 == strBuffer2)
 
-    var a: String? = "abc"
-    a = null //
-    println(a)
+    //Comparing the reference
+    println(strBuffer1 === strBuffer2)
 }

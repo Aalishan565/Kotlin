@@ -21,7 +21,7 @@ class Chennai : City {
 
 
 fun main() {
-   var bangalore=Bangalore()
+    var bangalore = Bangalore()
     bangalore.name()
     bangalore.cityBus()
 

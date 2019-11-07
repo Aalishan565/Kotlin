@@ -1,4 +1,4 @@
-abstract class Language {
+abstract class Language() {
     abstract fun know()
     open fun communication() {
         println("English language")

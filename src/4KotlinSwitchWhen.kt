@@ -1,6 +1,6 @@
 fun main() {
-    var num1 = 2
 
+    val num1 = 2
     // 1st way
     when (num1) {
         1 -> println("The number is one")
@@ -10,11 +10,11 @@ fun main() {
     }
 
     // 2nd way
-   /* var number = when (num1) {
-        1 -> "one"
-        2 -> "two"
-        3 -> "three"
-        else -> "no number"
-    }
-    println(number)*/
+    /* var number = when (num1) {
+         1 -> "one"
+         2 -> "two"
+         3 -> "three"
+         else -> "no number"
+     }
+     println(number)*/
 }
