@@ -4,7 +4,7 @@ fun main() {
     swapTwoNumberWithoutThirdVariable()
 }
 
-fun swapTwoNumberWithoutThirdVariable() {
+private fun swapTwoNumberWithoutThirdVariable() {
     var number1 = 10
     var number2 = 5
     println("Before swap:")

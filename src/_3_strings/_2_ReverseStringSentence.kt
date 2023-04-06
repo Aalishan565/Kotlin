@@ -4,7 +4,7 @@ fun main() {
     reverseStringSentence()
 }
 
-fun reverseStringSentence() {
+private fun reverseStringSentence() {
     var input = "Hi I am doing practice"
     var result = ""
     var inputList = input.split(" ")

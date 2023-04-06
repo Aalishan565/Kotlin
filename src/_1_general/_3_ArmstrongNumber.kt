@@ -5,7 +5,7 @@ fun main() {
     println("$number is armstrong : ${isNumberArmStrong(number)}")
 }
 
-fun isNumberArmStrong(inputNumber: Int): Boolean {
+private fun isNumberArmStrong(inputNumber: Int): Boolean {
     var number = inputNumber
     var sum = 0
     var reminder: Int

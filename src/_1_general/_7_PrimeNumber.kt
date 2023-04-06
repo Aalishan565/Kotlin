@@ -6,7 +6,7 @@ fun main() {
     isPrimeNumber(number)
 }
 
-fun printAllPrimeNumbers(limit: Int) {
+private fun printAllPrimeNumbers(limit: Int) {
     for (i in 1..limit) {
         var isPrime = true
         for (j in 2..i / 2) {
@@ -23,7 +23,7 @@ fun printAllPrimeNumbers(limit: Int) {
     }
 }
 
-fun isPrimeNumber(number: Int): Boolean {
+private fun isPrimeNumber(number: Int): Boolean {
     for (i in 2..number / 2) {
         if (number % i == 0) {
             println("$number is not prime number")

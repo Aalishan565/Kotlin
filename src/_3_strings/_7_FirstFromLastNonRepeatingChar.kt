@@ -4,7 +4,7 @@ fun main() {
     firstFromLastNonRepeatingChar("aalishan")
 }
 
-fun firstFromLastNonRepeatingChar(inputString: String) {
+private fun firstFromLastNonRepeatingChar(inputString: String) {
     val max_size = 256
     var count = IntArray(max_size)
     for (input in inputString) {

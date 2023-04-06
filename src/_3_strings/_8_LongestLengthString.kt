@@ -4,7 +4,7 @@ fun main() {
     getLongestLengthString()
 }
 
-fun getLongestLengthString() {
+private fun getLongestLengthString() {
     var inputString = "Hi I am a developer"
     var inputStringArray = inputString.split(" ").toTypedArray()
     var count: Int = 0

@@ -4,7 +4,7 @@ fun main() {
    println(isStringPalindrome("aba"))
 }
 
-fun isStringPalindrome(inputString: String): Boolean {
+private fun isStringPalindrome(inputString: String): Boolean {
     var startIndex = 0
     var endIndex = inputString.length - 1
     while (startIndex <= endIndex) {

@@ -7,7 +7,7 @@ fun main() {
     findLongestCommonPrefixInStringArray(givenStringsArray)
 }
 
-fun findLongestCommonPrefixInStringArray(givenStringsArray: Array<String>) {
+private fun findLongestCommonPrefixInStringArray(givenStringsArray: Array<String>) {
     when (givenStringsArray.size) {
         0 -> {
             println("No longest prefix found")

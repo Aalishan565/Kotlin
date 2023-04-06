@@ -4,7 +4,7 @@ fun main() {
     fizzBuzzFun()
 }
 
-fun fizzBuzzFun() {
+private fun fizzBuzzFun() {
     val counter = 100
     var c3 = 0
     var c5 = 0

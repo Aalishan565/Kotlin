@@ -4,7 +4,7 @@ fun main() {
     removeDuplicateFromString("aalishan")
 }
 
-fun removeDuplicateFromString(inputString: String) {
+private fun removeDuplicateFromString(inputString: String) {
     var result = ""
     for (input in inputString) {
         if (!result.contains(input)) {

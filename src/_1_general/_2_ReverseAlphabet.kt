@@ -5,7 +5,7 @@ fun main() {
     println(reverseAlphabet(input))
 }
 
-fun reverseAlphabet(input: String): String {
+private fun reverseAlphabet(input: String): String {
     var inputCharArray = input.toCharArray()
     var startIndex = 0
     var endIndex = inputCharArray.size - 1

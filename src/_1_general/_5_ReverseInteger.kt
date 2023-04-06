@@ -6,7 +6,7 @@ fun main() {
     println("Reverse of $inputNumber is $result")
 }
 
-fun reverseInteger(input: Int): Int {
+private fun reverseInteger(input: Int): Int {
     var number = input
     var reminder: Int
     var result = 0

@@ -4,7 +4,7 @@ fun main() {
     fibonacciResultOfGivenNumber(7)
 }
 
-fun fibonacciUsingLoop(number: Int) {
+private fun fibonacciUsingLoop(number: Int) {
     var firstNumber = 0
     var secondNumber = 1
     var nextNumber: Int
@@ -19,7 +19,7 @@ fun fibonacciUsingLoop(number: Int) {
     }
 }
 
-fun fibonacciResultOfGivenNumber(number: Int): Int {
+private fun fibonacciResultOfGivenNumber(number: Int): Int {
     if (number <= 1) {
         return 1
     }

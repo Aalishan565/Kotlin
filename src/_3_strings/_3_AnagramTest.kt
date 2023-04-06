@@ -9,7 +9,7 @@ fun main() {
     println(isAnagramUsingHashMap(input1, input2))
 }
 
-fun areStringsAnagram(input1: String, input2: String): Boolean {
+private fun areStringsAnagram(input1: String, input2: String): Boolean {
     var char1 = input1.toCharArray()
     var char2 = input2.toCharArray()
     Arrays.sort(char1)
@@ -17,7 +17,7 @@ fun areStringsAnagram(input1: String, input2: String): Boolean {
     return char1.contentEquals(char2)
 }
 
-fun areStringsAnagramUsingCounter(input1: String, input2: String): Boolean {
+private fun areStringsAnagramUsingCounter(input1: String, input2: String): Boolean {
     if (input1.length != input2.length) {
         return false
     }
@@ -35,7 +35,7 @@ fun areStringsAnagramUsingCounter(input1: String, input2: String): Boolean {
     return true
 }
 
-fun isAnagramUsingHashMap(input1: String, input2: String): Boolean {
+private fun isAnagramUsingHashMap(input1: String, input2: String): Boolean {
     if (input1.length != input2.length) {
         return false
     }
